@@ -1,6 +1,6 @@
 .main-div{
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #ced4da;
 }
 
@@ -12,6 +12,8 @@
 
 @media only screen and (max-width: 768px){
   .main-div{
+    width: 100%;
+    height: 100%;
     flex-direction: column;
   }
 
