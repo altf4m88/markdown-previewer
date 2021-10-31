@@ -51,8 +51,6 @@ class MarkdownPreviewer extends React.Component{
     renderPreview = (markdown = this.state.markdown) => {
         let previewElement = document.querySelector('#preview');
 
-        console.log(marked(markdown))
-
         previewElement.innerHTML = marked(markdown);
     }
 
