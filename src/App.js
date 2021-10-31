@@ -1,9 +1,9 @@
 import './App.css';
-import './Components/MarkdownPreviewer';
+import MarkdownPreviewer from './Components/MarkdownPreviewer';
 
 function App() {
   return (
-
+    <MarkdownPreviewer/>
   );
 }
 
